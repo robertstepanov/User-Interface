@@ -1,0 +1,217 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	max-width: 100%;
+}
+
+.nav-logo {
+	background: lightgray;
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+	position: fixed;
+	z-index: 20;
+} 
+
+.nav-items {
+	margin: 2% 8% 0 0;
+	
+	display: inline-block;
+}
+
+.nav-items a {
+	padding-right: 175px;
+	color: grey;
+	text-decoration: none;
+}
+
+.logo {
+	margin-left: 88%;
+	margin-top: -2%;
+	margin-bottom: 1.1%;
+}
+
+.hero {
+	display: inline-block;
+	width: 100%;
+}
+
+.hero h1 {
+	margin-left: 25%;
+	margin-top: 11%;
+	font-size: 4em;
+	text-align: center;
+	width: 325px;
+	font-family: 'Bangers', sans-serif;
+}
+
+.button {
+	width: 250px;
+	margin-left: 500px;
+	margin-top: 30px;
+	font-size: 1.5em;
+	text-align: center;
+	padding: 8px 25px;
+	border: 2px solid #000;
+}
+
+.button a {
+	color: darkslategray;
+	text-decoration: none;
+}
+
+.hero-image {
+	margin-left: 58%;
+	margin-top: -18%;
+	margin-bottom:5%;
+}
+
+.about-features {
+	border-top: 1px solid black;
+	width: 95%;
+	margin: 0 auto;
+	padding-top: 40px;
+	
+}
+
+.features {
+	width: 40%;
+	display: inline-block;
+	padding-right: 150px;
+}
+
+.about {
+	width: 40%;
+	display: inline-block;
+	padding-left: 150px;
+	margin-left: 350px;
+}
+
+.about-features h2 {
+	text-transform: uppercase;
+	font-size: 1.2em;
+	padding-bottom: 35px;
+}
+
+.about-features p {
+	padding-bottom: 50px;
+	font-size: 1.4em;
+}
+
+.image-splitter {
+	width: 95%;
+	display: inline-block;
+	margin-left: 2.5%;
+	
+	background: yellow;
+}
+
+.image-splitter img {
+	width: 100%;
+}
+
+.other-info {
+	border-bottom: 1px solid black;
+	width: 95%;
+	margin: 0 auto;
+	padding: 40px 0 30px 0;
+	
+}
+
+.other-info h2 {
+	text-transform: uppercase;
+	font-size: 1.2em;
+	padding-bottom: 35px;
+}
+
+.other-info p {
+	padding-bottom: 50px;
+	font-size: 1.4em;
+}
+
+.info-one {
+	width: 30%;
+	display: inline-block;;
+}
+
+.info-two {
+	width: 30%;
+	display: inline-block;
+	margin-left: 4.2%;
+}
+
+.info-three {
+	width: 30%;
+	display: inline-block;
+	margin-left: 4.2%;
+}
+
+.contact {
+	width: 95%;
+	margin: 40px auto;
+}
+
+.contact h2 {
+	font-size: 1.2em;
+}
+
+.contact address {
+	font-style: normal;
+	margin-top: 20px;
+}
+
+footer {
+	text-align: center;
+	margin: 90px auto 100px;
+}
