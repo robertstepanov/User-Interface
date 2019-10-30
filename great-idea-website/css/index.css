@@ -60,6 +60,7 @@ table {
 	text-align: center;
 	display: inline-block;
 	width: 100%;
+	/* --- Added Sticky Nav for Stretch --- */
 	position: fixed;
 	z-index: 20;
 } 
@@ -93,7 +94,7 @@ table {
 	font-size: 4em;
 	text-align: center;
 	width: 325px;
-	font-family: 'Bangers', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
 .button {
@@ -104,6 +105,34 @@ table {
 	text-align: center;
 	padding: 8px 25px;
 	border: 2px solid #000;
+	/* -- Animation for Stretch -- */
+	transition-duration: 0.8s;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+/* -- Animation for Stretch -- */
+.button:after {
+	content: "";
+  background: #0171D4;
+  display: block;
+  padding-top: 100%;
+	padding-left: 100%;
+	padding-bottom: 100%;
+	padding-right: 100%;
+	margin-left: -30px!important;
+	margin-right: -40px!important;
+	margin-top: -100%;
+	margin-bottom: -100%;
+  opacity: 0;
+  transition: all 2s
+}
+/* -- Animation for Stretch -- */
+.button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
 }
 
 .button a {
@@ -142,6 +171,7 @@ table {
 	text-transform: uppercase;
 	font-size: 1.2em;
 	padding-bottom: 35px;
+	font-weight: bold;
 }
 
 .about-features p {
@@ -173,6 +203,7 @@ table {
 	text-transform: uppercase;
 	font-size: 1.2em;
 	padding-bottom: 35px;
+	font-weight: bold;
 }
 
 .other-info p {
@@ -204,6 +235,7 @@ table {
 
 .contact h2 {
 	font-size: 1.2em;
+	font-weight: bold;
 }
 
 .contact address {
